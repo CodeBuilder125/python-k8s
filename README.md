@@ -7,6 +7,11 @@ REQUIREMENTS
 
 python3 installed on your system of choice
 
+
+
+
+
+
 Install Python dependencies if needed.
 pip3 install flask or with sudo permissions sudo pip3 install flask
 pip3 install requests or with sudo permissions sudo pip3 install requests
