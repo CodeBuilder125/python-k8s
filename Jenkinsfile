@@ -1,7 +1,5 @@
 @Library("my-shared-library") _
 def app = 'Unknown'
-
-
 pipeline{
     // agent { label 'slave || slave-jnlpx' }
     agent { label 'slave1' }
@@ -12,7 +10,7 @@ pipeline{
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"  
     }
     parameters {
-        string(name: 'ENVIRONMENT', defaultValue: 'DEV', description: 'Where should I deploy?')
+        string(name: 'ENVIRONMENT', defaultValcvcvue: 'DEV', description: 'Where should I deploy?')
         string(name: 'service_name', defaultValue: 'app', description: 'Pick Service to Deploy')
         text(name: 'AWS_DEFAULT_REGION', defaultValue: 'us-east-2', description: 'Enter region')
         text(name: 'AWS_ACCOUNT_ID', defaultValue: '489994096722', description: 'Enter id')
