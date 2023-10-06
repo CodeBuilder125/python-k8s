@@ -1,4 +1,4 @@
-
+         
 Javad's Weather Station Python App
 
 REQUIREMENTS
