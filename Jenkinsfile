@@ -1,5 +1,7 @@
 @Library("my-shared-library") _
 def app = 'Unknown'
+
+
 pipeline{
     // agent { label 'slave || slave-jnlpx' }
     agent { label 'slave1' }
