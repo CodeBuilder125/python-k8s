@@ -4,6 +4,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
+
 CITY_NAME = 'Washington, DC'
 
 def get_weather_data():
