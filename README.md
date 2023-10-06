@@ -2,6 +2,9 @@
 Javad's Weather Station Python App
 
 REQUIREMENTS
+
+
+
 python3 installed on your system of choice
 
 Install Python dependencies if needed.
